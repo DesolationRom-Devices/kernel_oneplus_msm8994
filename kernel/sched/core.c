@@ -167,11 +167,6 @@ void su_exit(void)
 	atomic_dec(&__su_instances);
 }
 
-void su_exit(void)
-{
-	atomic_dec(&__su_instances);
-}
-
 
 /*
  * Debugging: various feature bits
